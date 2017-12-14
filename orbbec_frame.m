@@ -1,6 +1,7 @@
 function [frame] = orbbec_frame(raw)
 
 %ORBBEC_FRAME - Opens a .raw depth frame
+% this is a test, and only a test
 
 if isempty(raw)
     raw = uigetfile('.raw', 'Select the .raw depth file');
