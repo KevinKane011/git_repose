@@ -30,18 +30,11 @@ for i = 1:q
     % Visualize the noise (heat map)
     l = length(cap.depth(1,1,:));
     figure
-    for a = 1:l
-        depth_stack(a) = cap.depth(:,:,a);
-        if a == l % build heat map
-            [x, y] = size(cap.depth(:,:,a)
-            for c = 1:x
-                for d = 1:y
-                    %sum
-                end
-            end
-            heat = sum/l;
+    for y = 1:l
+        depth_stack(x) = cap.depth(:,:,y);
+        if y == l % build heat map
+            %stuff
             figure;
-            imshow(heat);
         end
     end
     
@@ -51,12 +44,12 @@ for i = 1:q
     eval(['blob_sizes_' filename ' = []']);
     l = length(cap.depth(1,1,:));
     figure
-    for x = 1:b
-        disp(['Frame ' num2str(x) ' of ' num2str(b)]);
+    for x = 1:l
+        disp(['Frame ' num2str(x) ' of ' num2str(l)]);
         [bad_pixel_count, bad_pixel_blob_count, blob_sizes, BW] = bad_pixel_counter_shell(cap.depth(:,:,x), 0, 'less', false);
         close all;
         imshow(BW); % Display Depth Images
-        title(['Threshold ' filename ' at ' mmdepth 'mm : Black & White Image (frame ' num2str(b) ')']);
+        title(['Threshold ' filename ' at ' mmdepth 'mm : Black & White Image (frame ' num2str(l) ')']);
         pause(.1);
         eval(['bad_pixel_count_' filename ' = bad_pixel_count_' filename '+ bad_pixel_count;']);
         eval(['bad_pixel_blob_count_' filename ' = bad_pixel_blob_count_' filename '+ bad_pixel_blob_count;']);
