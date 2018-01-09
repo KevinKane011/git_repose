@@ -1,0 +1,6 @@
+This is a new text file created ont he gitHub website.
+
+I don't knnow how functional this is for code writing, but it seem useful for embedding messages to eachother, or for creating/modifying header type files.
+
+Kevin
+1/9/17
