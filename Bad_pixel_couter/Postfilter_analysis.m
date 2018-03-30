@@ -33,7 +33,7 @@ for i = 1:q
     for a = 1:l
         depth_stack(a) = cap.depth(:,:,a);
         if a == l % build heat map
-            [x, y] = size(cap.depth(:,:,a)
+            [x, y] = size(cap.depth(:,:,a));
             for c = 1:x
                 for d = 1:y
                     %sum
