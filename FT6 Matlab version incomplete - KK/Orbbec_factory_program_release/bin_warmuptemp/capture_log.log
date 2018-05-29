@@ -1,0 +1,42 @@
+----- start (2018-Feb-21 12:01:16 sensor_eval_orbbec-g9dd714c-dirty) -----
+[ INFO][3276.941] Binary: C:\dev\sensor_eval-build\bin\capture_orbbec.exe
+[ INFO][3276.941] Command line: 
+[ INFO][3276.941][CaptureFramework] angles: 0
+[ INFO][3276.941][CaptureFramework] ranges: 0
+[ INFO][3276.941][CaptureFramework] speeds: 0
+[ WARN][3276.941][CaptureFramework] No modes supplied -- using default mode 1: Uncalibrated
+----- start (2018-Feb-21 16:48:08 sensor_eval_orbbec-g9dd714c-dirty) -----
+[ INFO][0488.976] Binary: C:\dev\sensor_eval-build\bin\capture_orbbec.exe
+[ INFO][0488.978] Command line: 
+[ INFO][0488.979][CaptureFramework] angles: 0
+[ INFO][0488.980][CaptureFramework] ranges: 0
+[ INFO][0488.981][CaptureFramework] speeds: 0
+[ WARN][0488.982][CaptureFramework] No modes supplied -- using default mode 1: Uncalibrated
+----- start (2018-Feb-22 11:26:05 sensor_eval_orbbec-g7ba592a-dirty) -----
+[ INFO][7565.241] Binary: C:\Users\windows_dev\Desktop\orbbec\capture_orbbec.exe
+[ INFO][7565.241] Command line: 
+[ INFO][7565.241][CaptureFramework] angles: 0
+[ INFO][7565.241][CaptureFramework] ranges: 0
+[ INFO][7565.241][CaptureFramework] speeds: 0
+[ WARN][7565.241][CaptureFramework] No modes supplied -- using default mode 1: Uncalibrated
+----- start (2018-Feb-22 11:27:53 sensor_eval_orbbec-g7ba592a-dirty) -----
+[ INFO][7673.541] Binary: C:\Users\windows_dev\Desktop\orbbec\capture_orbbec.exe
+[ INFO][7673.541] Command line: 
+[ INFO][7673.541][CaptureFramework] angles: 0
+[ INFO][7673.541][CaptureFramework] ranges: 0
+[ INFO][7673.541][CaptureFramework] speeds: 0
+[ WARN][7673.541][CaptureFramework] No modes supplied -- using default mode 1: Uncalibrated
+----- start (2018-Feb-22 11:28:19 sensor_eval_orbbec-g7ba592a-dirty) -----
+[ INFO][7699.516] Binary: C:\Users\windows_dev\Desktop\orbbec\capture_orbbec.exe
+[ INFO][7699.516] Command line: 
+[ INFO][7699.517][CaptureFramework] angles: 0
+[ INFO][7699.517][CaptureFramework] ranges: 0
+[ INFO][7699.517][CaptureFramework] speeds: 0
+[ WARN][7699.517][CaptureFramework] No modes supplied -- using default mode 1: Uncalibrated
+----- start (2018-Feb-22 11:30:13 sensor_eval_orbbec-g7ba592a-dirty) -----
+[ INFO][7813.864] Binary: C:\Users\windows_dev\Desktop\orbbec\capture_orbbec.exe
+[ INFO][7813.864] Command line: 
+[ INFO][7813.864][CaptureFramework] angles: 0
+[ INFO][7813.864][CaptureFramework] ranges: 0
+[ INFO][7813.864][CaptureFramework] speeds: 0
+[ WARN][7813.864][CaptureFramework] No modes supplied -- using default mode 1: Uncalibrated
