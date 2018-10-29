@@ -1,0 +1,36 @@
+******** NOTES ********************
+
+For more information contact...
+
+Sr. Camera Systems Engineer, at Matterport
+Kevin Kane
+1 (321) 917-1025
+kkane@matterport.com
+
+and/or
+
+Sr. Systems Engineer, at Matterport
+Laura Boon
+1 (720) 253-3508
+lboon@matterport.com
+
+
+******** NOTES ********************
+
+backdoor.txt file saved at: C:\Orbbec_factory_program_release\
+leopard_rgb_capture.exe saved at: C:\Orbbec_factory_program_release\leopard_rgb_streamer_and_capture\
+
+option to trigger capture when the rise in temperature over a window of time is less than some threshold:
+capture_orbbec.exe -timed_duration=5 -target=1 -ir_save_count=1 -temp_trigger_min_rise=0.19 -temp_trigger_poll_samples=100 -temp_trigger_poll_ms=100
+
+This will create a window of 100 samples, taken every 100ms, and trigger capture when the difference between the first and last sample in the window 
+is less than 0.05 degrees C.  It is necessary to wait at least the time necessary to fill the sample window (e.g. 100sample * 100ms = 10 seconds minimum wait)
+
+
+******** DEFAULT COMMANDS ********************
+
+capture_depth_command = 'C:\Orbbec_factory_program_release\bin_warmuptemp\capture_orbbec.exe -target=1 -ir_save_count=1 -single -nframes=50 -temp_trigger_min_rise=0.19 -temp_trigger_poll_samples=100 -temp_trigger_poll_ms=100 -depth_override=(*distance*) -tag=PVT_(*TestType*)'
+capture_RGB_command_A = ''
+capture_RGB_command_B = '.\leopard_rgb_capture 0 10 10'
+capture_RGB_command = '.\leopard_rgb_capture 0 10 10'
+get_RGB_serial_command = 'C:\Python27\python.exe C:\Orbbec_factory_program_release\get_leopard_serials.py'

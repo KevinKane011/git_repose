@@ -1,0 +1,14 @@
+sorted list                                                    calls       self time      total time
+<unprofiled>                                                     0.0     17 ms 382547%     17 ms 382
+orbbec::ni::oni_adapter_plugin::temp_update                      0.9      4 us   99%      4 us   99%
+orbbec::ni::oni_adapter_plugin::~oni_adapter_plugin              0.1     38 ns    1%     38 ns    1%
+orbbec::ni::oni_adapter_plugin::read_streams                     0.9     19 ns    0%     19 ns    0%
+orbbec::ni::oni_adapter_plugin::init_openni                      0.0      0 ns    0%      0 ns    0%
+
+call tree                                                      calls       self time      total time
+<unprofiled>                                                     0.0     17 ms 382547%     17 ms 382
+  orbbec::ni::oni_adapter_plugin::init_openni                    0.0      0 ns    0%      0 ns    0%
+  orbbec::ni::oni_adapter_plugin::temp_update                    0.9      4 us   99%      4 us   99%
+    orbbec::ni::oni_adapter_plugin::read_streams                 0.9     19 ns    0%     19 ns    0%
+  orbbec::ni::oni_adapter_plugin::~oni_adapter_plugin            0.1     38 ns    1%     38 ns    1%
+
